@@ -108,4 +108,9 @@ redis-cli ping
 #Server running functions =================================================================>
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
-```    
+```
+
+Run server on your host:
+```python
+python3 main.py
+```
