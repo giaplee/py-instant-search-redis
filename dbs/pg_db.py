@@ -18,6 +18,9 @@ def connect():
                 return connection
     return None
 
+'''
+This function will get all item in the database
+'''
 def getAllDataItems(connection):
     items = [] #we get all data items from the database by connection
     return items
