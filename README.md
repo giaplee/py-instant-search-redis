@@ -102,3 +102,10 @@ redis-cli ping
 
 **Now is time to start to code**
 - Getting started >>
+
+**Now is time to start the server**
+```python
+#Server running functions =================================================================>
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
+```    
