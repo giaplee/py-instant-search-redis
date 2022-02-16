@@ -24,3 +24,12 @@ This function will get all item in the database
 def getAllDataItems(connection):
     items = [] #we get all data items from the database by connection
     return items
+
+'''
+Suppose we have database item with structure below:
+book item object:
+title: string
+author: string
+isbn: string
+category: string
+ '''

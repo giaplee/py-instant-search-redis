@@ -85,8 +85,6 @@ def indexData():
     return "Completed" # return message to client
 
 
-
-
 #Ultiliti functions here ==============================================================================>
 '''
 Clean some special characters from the query string
