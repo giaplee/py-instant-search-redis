@@ -89,7 +89,8 @@ res = client.search(q)
 2. Python version: python3.8
 3. Install Redis Cli for Mac
 - Redis cli helps we can connect and interact with Redis server from command-line
->we can use `FT._LIST` to list all existing indexs on the Redis server (or create, delete, view an index information)
+>We can use `FT._LIST` to list all existing indexs on the Redis server (or create, delete, view an index information)
+>Check more about redis search command here (https://oss.redis.com/redisearch/Commands/)
 - Install steps on MacOS's terminal
 ```python
 brew update
@@ -108,4 +109,9 @@ redis-cli ping
 #Server running functions =================================================================>
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
-```    
+```
+
+Run server on your host:
+```python
+python3 main.py
+```
