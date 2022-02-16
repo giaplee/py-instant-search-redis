@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/AOEpeople/Tagging.svg?branch=master)](https://#)
+[![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Python version](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7-blue)](https://#)
+
 # py-instant-search-redis
 **Source code example for how to build an instant search (or real-time search) function with Redis in python.**
 
